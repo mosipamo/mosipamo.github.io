@@ -21,7 +21,7 @@ repository               : "mosipamo/mosipamo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Mohammad Sina Parvizi"
   pronouns         : "he/his"
   bio              : "Computer Engineering B.Sc. at the University of Tehran"
