@@ -11,4 +11,4 @@ redirect_from:
 
 ## Download
 
-To Download my offical transcript, click [here](/files/transcript.pdf).
+To Download my offical transcript, click [here](/files/MohammadSinaParvizi_CV.pdf).
