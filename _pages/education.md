@@ -13,4 +13,4 @@ redirect_from:
 
 * Diploma in Mathematics and Physics, Shahed Payambar Highschool
 
-You can read more about my education in my CV. You can download my CV by clicking [here](/files/cv.pdf)
+You can read more about my education in my CV. You can download my CV by clicking [here](/files/MohammadSinaParvizi_CV.pdf)
