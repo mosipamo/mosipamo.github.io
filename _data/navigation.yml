@@ -6,7 +6,7 @@
 
 main:
   - title: "About Me"
-    url: /About Me/
+    url: /about/
 
   - title: "Education"
     url: /education/
