@@ -50,8 +50,8 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ---
 permalink: /
-title: "About Me"
-excerpt: "About Me"
+title: ""
+<!-- excerpt: "About Me" -->
 author_profile: true 
 redirect_from: 
   - /about/
