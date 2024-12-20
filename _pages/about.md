@@ -50,15 +50,16 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ---
 permalink: /
-title: ""
-excerpt: "About Me"
+title: "About Me"
+<!-- excerpt: "About Me" -->
 author_profile: true 
 redirect_from: 
   - /about/
   - /about.html
 ---
-## Who am I?
 
+
+## Who am I?
 I'm Mohammad Sina Parvizi, an undergraduate computer engineering student living in Tehran, Iran. I first learned about programming when I found myself studying computer engineering at University. I am interested in Programming and Artificial Intelligence. I started these interests at University and I am always looking for progress and improvement in different fields. Also, I have a lot of interest in algorithms. I have worked on several projects through the University in different courses, which can be seen on GitHub.
 Feel free to check out my [GitHub profile](https://github.com/mosipamo) for my latest projects!
 
