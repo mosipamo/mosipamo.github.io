@@ -58,9 +58,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
-<br>
 
 ## Who am I?
 
