@@ -6,18 +6,13 @@
 
 main:
   - title: "About Me"
-    url: /
+    url: /About Me/
 
   - title: "Education"
     url: /education/
 
-
-  - title: "Publications"
-    url: /publications/
-
   - title: "CV"
     url: /cv/
-
 
   - title: "Transcript"
     url: /transcript/
