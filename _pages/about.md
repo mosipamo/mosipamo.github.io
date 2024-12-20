@@ -1,4 +1,4 @@
-<!-- ---
+---
 permalink: /
 title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
@@ -46,19 +46,19 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 
----
+<!-- ---
 permalink: /
 title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
+--- -->
 
 
-## Who am I?
+<!-- ## Who am I?
 I'm Mohammad Sina Parvizi, an undergraduate computer engineering student living in Tehran, Iran. I first learned about programming when I found myself studying computer engineering at University. I am interested in Programming and Artificial Intelligence. I started these interests at University and I am always looking for progress and improvement in different fields. Also, I have a lot of interest in algorithms. I have worked on several projects through the University in different courses, which can be seen on GitHub.
 Feel free to check out my [GitHub profile](https://github.com/mosipamo) for my latest projects!
 
@@ -68,4 +68,4 @@ My research interests consist of AI, machine learning, algorithms, and data scie
 
 ## What are my other interests?
 
-I have always been interested in playing video games. I like listening to music and playing musical instruments, too. I also enjoy watching movies and speaking to my friends in my leisure time.
+I have always been interested in playing video games. I like listening to music and playing musical instruments, too. I also enjoy watching movies and speaking to my friends in my leisure time. -->
