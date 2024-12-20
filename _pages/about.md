@@ -55,7 +55,7 @@ excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.hmd
+  - /about.md
 ---
 ## Who am I?
 
