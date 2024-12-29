@@ -14,5 +14,5 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Transcript"
-    url: /transcript/
+  # - title: "Transcript"
+  #   url: /transcript/
