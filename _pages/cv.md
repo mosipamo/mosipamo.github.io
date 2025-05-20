@@ -11,4 +11,4 @@ redirect_from:
 
 ## Download
 
-To Download my latest CV, click [here](/files/MohammadSinaParvizi_CV.pdf)
+To Download my latest CV, click [here](/files/MohammadSinaParviziCV.pdf)
