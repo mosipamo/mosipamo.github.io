@@ -11,6 +11,18 @@ html.light-theme {
     color: #1a1a2e;
   }
 
+  /* Main content area */
+  #main {
+    background-color: transparent;
+  }
+
+  .page {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
   /* Masthead / nav */
   .masthead {
     background: #ffffff;
@@ -55,17 +67,78 @@ html.light-theme {
 
   /* Sidebar / author profile */
   .sidebar {
-    background: #f5f7fa;
+    background: transparent;
+  }
+
+  .author__avatar {
+    img {
+      border-color: #dee2e6;
+    }
+  }
+
+  .author__content {
+    color: #1a1a2e;
+  }
+
+  .author__name {
+    color: #1a1a2e;
+  }
+
+  .author__bio {
+    color: #4a4a6a;
+  }
+
+  .author__urls-wrapper {
+    color: #1a1a2e;
+
+    button {
+      background: #0077b6;
+      color: #ffffff;
+
+      &:hover {
+        background: #005f99;
+      }
+    }
   }
 
   .author__urls {
     background: #ffffff;
     border-color: #dee2e6;
+    color: #1a1a2e;
+
+    li {
+      color: #1a1a2e;
+    }
+
+    a {
+      color: #4a4a6a;
+
+      &:hover {
+        color: #0077b6;
+        text-decoration: none;
+      }
+    }
+
+    .fa,
+    .fas,
+    .fab,
+    .ai {
+      color: #4a4a6a;
+    }
   }
 
   /* Footer */
   .page__footer {
     background: #2c2c54;
+    color: #e0e0e0;
+
+    a {
+      color: #52adc8;
+
+      &:hover {
+        color: #7ec8dd;
+      }
+    }
   }
 
   /* Links */
@@ -73,6 +146,10 @@ html.light-theme {
     color: #0077b6;
 
     &:hover {
+      color: #005f99;
+    }
+
+    &:visited {
       color: #005f99;
     }
   }
@@ -87,6 +164,16 @@ html.light-theme {
     }
   }
 
+  /* Page title */
+  .page__title {
+    color: #1a1a2e;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #1a1a2e;
+  }
+
   /* Inline code */
   p > code,
   a > code,
@@ -96,6 +183,12 @@ html.light-theme {
     background: #e9ecef;
     border-color: #dee2e6;
     color: #c0392b;
+  }
+
+  /* Code blocks */
+  pre.highlight {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
   }
 
   /* Borders & dividers */
@@ -139,16 +232,44 @@ html.light-theme {
     }
   }
 
+  .archive__item-title {
+    color: #1a1a2e;
+
+    a {
+      color: #1a1a2e;
+
+      &:hover {
+        color: #0077b6;
+      }
+    }
+  }
+
+  .archive__item-excerpt {
+    color: #4a4a6a;
+  }
+
   /* Archive subtitle */
   .archive__subtitle {
     color: #4a4a6a;
     border-bottom-color: #dee2e6;
   }
 
+  /* Page meta */
+  .page__meta {
+    color: #6c757d;
+  }
+
   /* Page taxonomy tags */
   .page__taxonomy-item {
     border-color: #dee2e6;
     color: #4a4a6a;
+    background: #f8f9fa;
+
+    &:hover {
+      background: #e9ecef;
+      border-color: #0077b6;
+      color: #0077b6;
+    }
   }
 
   /* Navicon hamburger bars */
@@ -158,32 +279,92 @@ html.light-theme {
     background: #1a1a2e;
   }
 
-  /* Author avatar border */
-  .author__avatar img {
-    border-color: #dee2e6;
-  }
-
   /* Blockquote */
   blockquote {
     border-left-color: #0077b6;
     color: #4a4a6a;
+    background: #f8f9fa;
   }
 
   /* Table */
   table {
     border-color: #dee2e6;
+    background: #ffffff;
 
     th {
       background: #e9ecef;
       color: #1a1a2e;
+      border-color: #dee2e6;
     }
 
     td {
       border-color: #dee2e6;
+      color: #1a1a2e;
     }
 
     tr:nth-child(even) td {
       background: #f5f7fa;
+    }
+  }
+
+  /* Notices */
+  .notice {
+    background: #e7f3ff;
+    border-color: #0077b6;
+  }
+
+  /* Buttons */
+  .btn {
+    background: #0077b6;
+    color: #ffffff;
+    border-color: #0077b6;
+
+    &:hover {
+      background: #005f99;
+      border-color: #005f99;
+    }
+  }
+
+  /* Pagination */
+  .pagination {
+    li {
+      a {
+        background: #ffffff;
+        border-color: #dee2e6;
+        color: #4a4a6a;
+
+        &:hover {
+          background: #f8f9fa;
+          color: #0077b6;
+        }
+
+        &.current {
+          background: #0077b6;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  /* Breadcrumbs */
+  .breadcrumbs {
+    color: #6c757d;
+
+    a {
+      color: #0077b6;
+
+      &:hover {
+        color: #005f99;
+      }
+    }
+  }
+
+  /* Search */
+  .search__toggle {
+    color: #4a4a6a;
+
+    &:hover {
+      color: #0077b6;
     }
   }
 }
