@@ -5,7 +5,9 @@
 
 html.light-theme {
 
-  /* Base */
+  /* Base - override both html and body to prevent dark background showing through */
+  background-color: #f5f7fa;
+
   body {
     background-color: #f5f7fa;
     color: #1a1a2e;
