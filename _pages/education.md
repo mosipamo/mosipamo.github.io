@@ -9,8 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-* BSc. in Computer Engineering (Information Technology major), College of Electric and Computer Engineering, [University of Tehran](https://ece.ut.ac.ir/en/ece)
+<div data-aos="fade-up" data-aos-delay="100" markdown="1">
 
-* Diploma in Mathematics and Physics, Shahed Payambar Highschool
+## University of Tehran
 
-<!-- You can read more about my education in my CV. You can download my CV by clicking [here](/files/MohammadSinaParvizi_CV.pdf) -->
+**B.Sc. in Computer Engineering** (Information Technology Major)  
+College of Electrical and Computer Engineering  
+*Expected Graduation: 2026*
+
+**Relevant Coursework:**
+- Data Structures & Algorithms
+- Artificial Intelligence
+- Machine Learning
+- Operating Systems
+- Database Design
+- Computer Networks
+
+</div>
+
+<div data-aos="fade-up" data-aos-delay="150" markdown="1">
+
+## High School
+
+**Diploma in Mathematics and Physics**  
+Shahed Payambar High School
+
+</div>
+
+---
+
+You can download my full CV [here](/files/Sina_CV_ML.pdf).

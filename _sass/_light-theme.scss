@@ -1,0 +1,189 @@
+/* ==========================================================================
+   LIGHT THEME OVERRIDES
+   Applied when <html> has the class "light-theme"
+   ========================================================================== */
+
+html.light-theme {
+
+  /* Base */
+  body {
+    background-color: #f5f7fa;
+    color: #1a1a2e;
+  }
+
+  /* Masthead / nav */
+  .masthead {
+    background: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .greedy-nav {
+    background: #ffffff;
+
+    a {
+      color: #4a4a6a;
+
+      &:hover {
+        color: #1a1a2e;
+      }
+    }
+
+    button:not(.theme-toggle) {
+      background-color: #4a4a6a;
+    }
+
+    .theme-toggle {
+      color: #1a1a2e;
+      border-color: rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.07);
+        border-color: rgba(0, 0, 0, 0.35);
+      }
+    }
+
+    .hidden-links {
+      background: #ffffff;
+      border-color: #dee2e6;
+
+      a:hover {
+        background: #f0f0f5;
+        color: #1a1a2e;
+      }
+    }
+  }
+
+  /* Sidebar / author profile */
+  .sidebar {
+    background: #f5f7fa;
+  }
+
+  .author__urls {
+    background: #ffffff;
+    border-color: #dee2e6;
+  }
+
+  /* Footer */
+  .page__footer {
+    background: #2c2c54;
+  }
+
+  /* Links */
+  a {
+    color: #0077b6;
+
+    &:hover {
+      color: #005f99;
+    }
+  }
+
+  .page__content {
+    a {
+      color: #0077b6;
+
+      &:hover {
+        color: #005f99;
+      }
+    }
+  }
+
+  /* Inline code */
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background: #e9ecef;
+    border-color: #dee2e6;
+    color: #c0392b;
+  }
+
+  /* Borders & dividers */
+  hr {
+    border-top-color: #dee2e6;
+  }
+
+  .page__content h2 {
+    border-bottom-color: #dee2e6;
+  }
+
+  /* TOC */
+  .toc {
+    background-color: #ffffff;
+    border-color: #dee2e6;
+  }
+
+  .toc__menu a {
+    border-bottom-color: #dee2e6;
+    color: #0077b6;
+
+    &:hover {
+      background: #f0f0f5;
+      color: #005f99;
+    }
+  }
+
+  /* Archive items — subtle card look */
+  .archive__item {
+    background: #ffffff;
+    padding: 0.75em;
+    border: 1px solid #e8eaef;
+    border-radius: 6px;
+  }
+
+  .archive__item:hover {
+    box-shadow: 0 6px 20px rgba(0, 119, 182, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    .archive__item-title a {
+      color: #0077b6;
+    }
+  }
+
+  /* Archive subtitle */
+  .archive__subtitle {
+    color: #4a4a6a;
+    border-bottom-color: #dee2e6;
+  }
+
+  /* Page taxonomy tags */
+  .page__taxonomy-item {
+    border-color: #dee2e6;
+    color: #4a4a6a;
+  }
+
+  /* Navicon hamburger bars */
+  .navicon,
+  .navicon::before,
+  .navicon::after {
+    background: #1a1a2e;
+  }
+
+  /* Author avatar border */
+  .author__avatar img {
+    border-color: #dee2e6;
+  }
+
+  /* Blockquote */
+  blockquote {
+    border-left-color: #0077b6;
+    color: #4a4a6a;
+  }
+
+  /* Table */
+  table {
+    border-color: #dee2e6;
+
+    th {
+      background: #e9ecef;
+      color: #1a1a2e;
+    }
+
+    td {
+      border-color: #dee2e6;
+    }
+
+    tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+  }
+}

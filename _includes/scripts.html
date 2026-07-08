@@ -1,3 +1,45 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- AOS - Animate On Scroll -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+	AOS.init({
+		duration: 650,
+		easing: "ease-out-cubic",
+		once: true,
+		offset: 50,
+	});
+</script>
+
+<!-- Dark / Light mode toggle -->
+<script>
+	(function () {
+		var toggle = document.getElementById("theme-toggle");
+		if (!toggle) return;
+
+		function applyTheme(isLight) {
+			if (isLight) {
+				document.documentElement.classList.add("light-theme");
+				toggle.textContent = "\u2600\uFE0F";
+				toggle.setAttribute("title", "Switch to dark mode");
+				toggle.setAttribute("aria-label", "Switch to dark mode");
+			} else {
+				document.documentElement.classList.remove("light-theme");
+				toggle.textContent = "\uD83C\uDF19";
+				toggle.setAttribute("title", "Switch to light mode");
+				toggle.setAttribute("aria-label", "Switch to light mode");
+			}
+		}
+
+		applyTheme(localStorage.getItem("theme") === "light");
+
+		toggle.addEventListener("click", function () {
+			var isLight =
+				!document.documentElement.classList.contains("light-theme");
+			localStorage.setItem("theme", isLight ? "light" : "dark");
+			applyTheme(isLight);
+		});
+	})();
+</script>
+
 {% include analytics.html %}
