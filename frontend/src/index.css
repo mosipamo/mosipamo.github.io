@@ -1,0 +1,140 @@
+:root {
+  /* Dark theme (default) — deep graphite paper, warm off-white ink */
+  --paper: #101216;
+  --paper-raised: #191c22;
+  --ink: #ece9e1;
+  --ink-soft: #9b9a91;
+  --rule: #2a2d34;
+  --indigo: #8fa4dd;
+  --indigo-soft: #5c6da0;
+  --teal: #4fd0b3;
+  --teal-soft: rgba(79, 208, 179, 0.12);
+  --glow: rgba(79, 208, 179, 0.18);
+  --shadow: rgba(0, 0, 0, 0.45);
+
+  /* Type */
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-hand: "Caveat", cursive;
+
+  /* Layout */
+  --max-width: 780px;
+  --gutter: clamp(1.25rem, 5vw, 2.5rem);
+}
+
+:root[data-theme="light"] {
+  --paper: #f3f3ec;
+  --paper-raised: #fbfbf7;
+  --ink: #1b1b18;
+  --ink-soft: #55534a;
+  --rule: #dad8cc;
+  --indigo: #2e4374;
+  --indigo-soft: #5c6da0;
+  --teal: #1e6b5c;
+  --teal-soft: #e4efec;
+  --glow: rgba(30, 107, 92, 0.1);
+  --shadow: rgba(27, 27, 24, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+/* subtle film-grain texture, dark theme only — adds depth without noise */
+[data-theme="dark"] body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+
+a {
+  color: var(--indigo);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--teal);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* the "marginalia" signature element: a small hand-written aside that
+   sits beside a heading, like a note pencilled in a paper's margin */
+.marginalia {
+  font-family: var(--font-hand);
+  color: var(--teal);
+  font-size: 1.2rem;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}

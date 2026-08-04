@@ -1,0 +1,30 @@
+[
+	{
+		"category": "Languages",
+		"items": ["Python", "C++", "C", "Java", "C#", "MATLAB"]
+	},
+	{
+		"category": "AI / ML",
+		"items": [
+			"TensorFlow",
+			"PyTorch",
+			"scikit-learn",
+			"NumPy",
+			"Pandas",
+			"Matplotlib",
+			"Keras"
+		]
+	},
+	{
+		"category": "Web Frameworks",
+		"items": ["FastAPI", "Django", "React", "Node.js"]
+	},
+	{
+		"category": "Database",
+		"items": ["PostgreSQL", "MySQL", "SQLite"]
+	},
+	{
+		"category": "Tools & Platforms",
+		"items": ["Git", "GitHub", "Linux"]
+	}
+]

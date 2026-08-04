@@ -1,0 +1,47 @@
+{
+	"name": "Mohammad Sina Parvizi Motlagh",
+	"pronouns": "he/his",
+	"role": "Computer Engineering (IT) undergraduate",
+	"affiliation": "University of Tehran",
+	"affiliationUrl": "https://ece.ut.ac.ir/en/ece",
+	"location": "Tehran, Iran",
+	"email": "sina.sipamo@gmail.com",
+	"abstract": "I'm Mohammad Sina Parvizi, a Computer Engineering (Information Technology) undergraduate at the University of Tehran. I am passionate about programming, artificial intelligence, and building things that solve real problems. I enjoy exploring the intersection of algorithms and machine learning, and I am always looking for opportunities to learn and grow. Feel free to check out my GitHub profile for my latest projects, or connect with me on LinkedIn.",
+	"abstractLinks": [
+		{ "text": "GitHub", "url": "https://github.com/mosipamo" },
+		{
+			"text": "LinkedIn",
+			"url": "https://www.linkedin.com/in/mohammad-sina-parvizi/"
+		}
+	],
+	"socials": [
+		{ "label": "GitHub", "url": "https://github.com/mosipamo" },
+		{
+			"label": "LinkedIn",
+			"url": "https://www.linkedin.com/in/mohammad-sina-parvizi/"
+		},
+		{ "label": "Instagram", "url": "https://instagram.com/m.sina.parvizi" },
+		{ "label": "Email", "url": "mailto:sina.sipamo@gmail.com" }
+	],
+	"researchInterests": [
+		{
+			"title": "Artificial Intelligence & Machine Learning",
+			"detail": "From classical algorithms to modern deep learning."
+		},
+		{
+			"title": "Data Science & Analytics",
+			"detail": "Finding meaningful patterns in complex datasets."
+		},
+		{
+			"title": "AI Applications",
+			"detail": "Applying intelligent systems to real-world domains."
+		}
+	],
+	"openTo": "research collaborations, internship opportunities, and project partnerships in AI/ML and software engineering.",
+	"otherInterests": [
+		"Playing video games",
+		"Listening to music and playing musical instruments",
+		"Watching movies",
+		"Catching up with friends"
+	]
+}

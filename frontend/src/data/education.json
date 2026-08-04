@@ -1,0 +1,18 @@
+[
+	{
+		"id": "university",
+		"period": "2022 — Present",
+		"degree": "B.Sc. in Computer Engineering (Information Technology)",
+		"institution": "University of Tehran",
+		"institutionUrl": "https://ece.ut.ac.ir/en/",
+		"detail": "Relevant Coursework:\n\nData Structures & Algorithms\nArtificial Intelligence\nMachine Learning\nOperating Systems\nDatabase Design\nComputer Networks"
+	},
+	{
+		"id": "high-school",
+		"period": "2019 — 2022",
+		"degree": "Diploma in Mathematics and Physics",
+		"institution": "Shahed Payambar High School",
+		"institutionUrl": "",
+		"detail": "Diploma in Mathematics and Physics"
+	}
+]

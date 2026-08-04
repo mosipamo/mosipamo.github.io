@@ -1,0 +1,56 @@
+[
+	{
+		"id": "project-1",
+		"title": "Deep Generative Models Course",
+		"period": "2025",
+		"tags": ["Python", "Generative AI"],
+		"summary": "This course explores deep generative models using state-of-the-art techniques.",
+		"repoUrl": "https://github.com/mosipamo/Deep-Generative-Models-Course.git",
+		"liveUrl": ""
+	},
+	{
+		"id": "project-2",
+		"title": "Machine Learning Course",
+		"period": "2025",
+		"tags": ["Machine Learning"],
+		"summary": "A comprehensive course covering machine learning concepts and techniques.",
+		"repoUrl": "https://github.com/mosipamo/Machine-Learning-Course.git",
+		"liveUrl": ""
+	},
+	{
+		"id": "project-3",
+		"title": "Artificial Intelligence Course",
+		"period": "2024",
+		"tags": ["AI"],
+		"summary": "A course covering artificial intelligence concepts and techniques.",
+		"repoUrl": "https://github.com/mosipamo/Artificial-Intelligence-Course.git",
+		"liveUrl": ""
+	},
+	{
+		"id": "project-4",
+		"title": "Internet Engineering Course",
+		"period": "2026",
+		"tags": ["Software Engineering"],
+		"summary": "A hands-on Internet Engineering course: the same blog/article app rebuilt step-by-step — from a raw Java HTTP server to a full Spring Boot + React + PostgreSQL stack with JWT auth, fully dockerized.",
+		"repoUrl": "https://github.com/mosipamo/Internet-Engineering-Course.git",
+		"liveUrl": ""
+	},
+	{
+		"id": "project-5",
+		"title": "Image Restoration",
+		"period": "2026",
+		"tags": ["Computer Vision"],
+		"summary": "A supervised deep learning pipeline that restores damaged old photographs — removing scratches, noise, and fading — using a U-Net trained on paired damaged/clean images.",
+		"repoUrl": "https://github.com/mosipamo/Image-Restoration.git",
+		"liveUrl": ""
+	},
+	{
+		"id": "project-6",
+		"title": "Sentiment Analysis Project",
+		"period": "2026",
+		"tags": ["Natural Language Processing", "AI"],
+		"summary": "A machine learning pipeline that classifies short texts and tweets as positive or negative sentiment, with an interactive Streamlit web app for live predictions.",
+		"repoUrl": "https://github.com/mosipamo/Sentiment-Analysis.git",
+		"liveUrl": ""
+	}
+]
